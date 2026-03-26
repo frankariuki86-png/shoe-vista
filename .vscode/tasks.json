@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Server",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				".\\server",
+				"start"
+			],
+			"isBackground": true
+		},
+		{
+			"label": "Start Client",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				".\\client",
+				"start"
+			],
+			"isBackground": true
+		}
+	]
+}
